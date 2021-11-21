@@ -49,7 +49,7 @@ export default function Home() {
                       />
                     </a>
                     <div className="-mr-2 flex items-center md:hidden">
-                      <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
+                      <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-500">
                         <span className="sr-only">Open main menu</span>
                         <MenuIcon className="h-6 w-6" aria-hidden="true" />
                       </Popover.Button>
@@ -62,7 +62,7 @@ export default function Home() {
                       {item.name}
                     </a>
                   ))}
-                  <a href={"https://app.urvana.net/formulario/dharma"} className="font-medium text-indigo-600 hover:text-indigo-500 inline-flex items-center space-x-1">
+                  <a href={"https://app.urvana.net/formulario/dharma"} className="font-medium text-blue-600 hover:text-blue-500 inline-flex items-center space-x-1">
                     <span>
                       Ingresar predios
                     </span>
@@ -90,12 +90,12 @@ export default function Home() {
                     <div>
                       <img
                         className="h-8 w-auto"
-                        src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg"
-                        alt=""
+                        src="/logo.svg"
+                        alt="Dharma logo"
                       />
                     </div>
                     <div className="-mr-2">
-                      <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
+                      <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-500">
                         <span className="sr-only">Close main menu</span>
                         <XIcon className="h-6 w-6" aria-hidden="true" />
                       </Popover.Button>
@@ -113,7 +113,7 @@ export default function Home() {
                     ))}
                   </div>
 
-                  <a href={"https://app.urvana.net/formulario/dharma"} className="w-full px-5 py-3 text-center font-medium text-indigo-600 bg-gray-50 hover:bg-gray-100 flex items-center space-x-1">
+                  <a href={"https://app.urvana.net/formulario/dharma"} className="w-full px-5 py-3 text-center font-medium text-blue-600 bg-gray-50 hover:bg-gray-100 flex items-center space-x-1">
                     <span>
                       Ingresar predios
                     </span>
@@ -128,7 +128,7 @@ export default function Home() {
             <div className="sm:text-center lg:text-left">
               <h1 className="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
                 <span className="block xl:inline">Edificios del mañana</span>{' '}
-                <span className="block text-indigo-600 xl:inline">hoy presentes</span>
+                <span className="block text-blue-600 xl:inline">hoy presentes</span>
               </h1>
               <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
                 Somos una inmobiliaria especializada en la <span className="font-semibold">comuna de Providencia</span>. Llevamos 8 años de trayectoria y más de 30 proyectos.
@@ -138,7 +138,7 @@ export default function Home() {
                   <a
                     href="https://www.urvana.net"
                     {...EXTERNAL({ follow: true })}
-                    className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10"
+                    className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 md:py-4 md:text-lg md:px-10"
                   >
                     Hablemos
                   </a>
@@ -147,7 +147,7 @@ export default function Home() {
                   <a
                     href={"https://app.urvana.net/formulario/dharma"}
                     {...EXTERNAL({ follow: true })}
-                    className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-indigo-700 bg-indigo-100 hover:bg-indigo-200 md:py-4 md:text-lg md:px-10"
+                    className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-blue-700 bg-blue-100 hover:bg-blue-200 md:py-4 md:text-lg md:px-10"
                   >
                     Ingresar predios
                   </a>
@@ -160,21 +160,21 @@ export default function Home() {
       <div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
         <img
           className="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full"
-          src="https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2850&q=80"
-          alt=""
+          src="https://images.pexels.com/photos/87223/pexels-photo-87223.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+          alt="Apartment building"
         />
       </div>
     </div>
 
 
-      <footer className="py-8 space-y-8 w-full max-w-screen-md mx-auto flex flex-col items-center">
+      <footer className="py-8 px-4 space-y-8 w-full max-w-screen-md mx-auto flex flex-col items-center">
         {/* <img className="h-10" src="https://tailwindui.com/img/logos/workflow-mark-gray-300.svg" alt="Company name" /> */}
         <p className="text-gray-500 text-base text-center">
           En{" "}
           <a
             href={`https://www.urvana.net?ref=${"demo"}`}
             {...EXTERNAL({ follow: true })}
-            className="text-cyan-700 hover:text-cyan-900 transition-all"
+            className="text-blue-700 hover:text-blue-900 transition-all"
           >
             Urvana.net
           </a>{" "}
