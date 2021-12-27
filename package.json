@@ -1,4 +1,5 @@
 {
+  "name": "urvana-dharma",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -8,13 +9,13 @@
   "dependencies": {
     "@headlessui/react": "^1.4.2",
     "@heroicons/react": "^1.0.5",
-    "next": "latest",
+    "next": "12.0.7",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   },
   "devDependencies": {
     "autoprefixer": "^10.2.6",
-    "postcss": "^8.3.5",
-    "tailwindcss": "^2.2.4"
+    "postcss": "^8.4.5",
+    "tailwindcss": "^3.0.7"
   }
 }
