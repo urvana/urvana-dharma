@@ -12,11 +12,26 @@ const navigation = [
   // { name: 'Company', href: '#' },
 ]
 
+const DESCRIPTION = "Inmobiliaria de ejemplo para URVANA.net — Te mostramos cómo integrar nuestro servicio white-label para que recibas terrenos auto-evaluados y ordenados.";
+const TITLE = "Dharma Inmobiliaria de ejemplo | Urvana.net";
+const IMAGE = "https://dharma.urvana.net/dharma-og.png";
+
 export default function RootPage() {
   return (
     <div className="">
       <Head>
-        <title>Dharma Inmobiliaria de ejemplo | Urvana.net</title>
+        <title>{TITLE}</title>
+        <meta name="description" content={DESCRIPTION} />
+        <meta property="og:title" content={TITLE} />
+        <meta property="og:description" content={DESCRIPTION} />
+        <meta property="og:image" content={IMAGE} />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content={TITLE} />
+        <meta name="twitter:description" content={DESCRIPTION} />
+        <meta name="twitter:image" content={IMAGE} />
+        <meta name="twitter:creator" content="@urvanachile" />
+        <meta name="twitter:site" content="@urvanachile" />
+
         <link rel="icon" href="/favicon.ico" />
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
