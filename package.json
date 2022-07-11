@@ -1,22 +1,29 @@
 {
   "name": "urvana-dharma",
   "private": true,
+  "version": "0.1.0",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start"
   },
+  "volta": {
+    "node": "16.16.0"
+  },
+  "engines": {
+    "npm": ">=7.0.0",
+    "node": ">=16.0.0"
+  },
   "dependencies": {
-    "@headlessui/react": "^1.5.0",
+    "@headlessui/react": "^1.6.6",
     "@heroicons/react": "^1.0.6",
-    "next": "12.1.5",
-    "react": "^18.0.0",
-    "react-dom": "^18.0.0"
+    "next": "12.2.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "autoprefixer": "^10.4.4",
-    "postcss": "^8.4.12",
-    "tailwindcss": "^3.0.24"
-  },
-  "version": "0.1.0"
+    "autoprefixer": "^10.4.7",
+    "postcss": "^8.4.14",
+    "tailwindcss": "^3.1.5"
+  }
 }
