@@ -222,8 +222,8 @@ export function EXTERNAL({ referrer = true, opener = false, follow = false } = {
   return { target: "_blank", rel: rel.join(" ") } ;
 }
 
-export const HREF_INSTAGRAM = "https://instagram.com/urvanachile";
-export const HREF_TWITTER = "https://twitter.com/urvanachile";
+export const HREF_INSTAGRAM = "https://instagram.com/urvana_net";
+export const HREF_TWITTER = "https://twitter.com/urvana_net";
 export const HREF_FACEBOOK = "https://facebook.com/urvanachile";
 export const HREF_GITHUB = "https://github.com/urvana";
 export const HREF_TIKTOK = "https://www.tiktok.com/@urvanachile"
