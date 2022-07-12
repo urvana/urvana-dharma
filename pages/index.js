@@ -224,7 +224,7 @@ export function EXTERNAL({ referrer = true, opener = false, follow = false } = {
 
 export const HREF_INSTAGRAM = "https://instagram.com/urvana_net";
 export const HREF_TWITTER = "https://twitter.com/urvana_net";
-export const HREF_FACEBOOK = "https://facebook.com/urvanachile";
+export const HREF_FACEBOOK = "https://facebook.com/urvananet";
 export const HREF_GITHUB = "https://github.com/urvana";
 export const HREF_TIKTOK = "https://www.tiktok.com/@urvanachile"
 
